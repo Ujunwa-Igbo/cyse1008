@@ -13,6 +13,11 @@ import { CONFIG } from 'src/config-global';
 import { Iconify } from 'src/components/iconify';
 import ActionAreaCard from './custom-component';
 
+import { textGradient } from 'src/theme/styles';
+
+import { ModularExponentiation } from './components/modular-exponentiation';
+import { ExtendedEuclideanAlgorithm } from './components/extended-euclidean-algorithm';
+
 const lgKey = 'lg';
 export function HomeHeroCYSE1008() {
   const [count, setCount] = useState(0);
